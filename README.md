@@ -1,7 +1,5 @@
 # Solusi Challenge Mata Kuliah Pemrograman Jaringan - B
 
-## Pertemuan
-
 - [Pertemuan 2](meet-2)
 
   1. [Challenge 1](meet-2/challenge-1) <br/>
@@ -22,5 +20,20 @@
      3. Server akan menerima semua kiriman data dari client dan kemudian merangkainya lagi menjadi file yang sama, baik isi maupun nama file aslinya
 
 - [Pertemuan 3](meet-3)
-  1. [Challenge 1](meet-3/challenge-1/)
-  2. [Challenge 2](meet-3/challenge-2/)
+
+  1. [Challenge 1](meet-3/challenge-1/) <br/>
+     Modifikasi code "select"
+
+     1. Client cukup mengetik nama file yang akan dikirim
+     2. Client akan mengirimkan data (isi file) secara bertahap dalam bentuk perulangan
+     3. Server menerima kiriman data dan menyusun ulang menjadi sebuah file, dan disimpan di local storage server
+
+  2. [Challenge 2](meet-3/challenge-2/) <br/>
+     Modifikasi code "select"
+
+     1. Client cukup mengetik nama file yang akan dikirim. File berisi operasi matematika (1 operator, 2 operand). Pemisah tiap operasi adalah perpindahan baris
+     2. Client akan mengirimkan data (isi file)
+     3. Server menerima kiriman data, menghitung hasilnya, dan menyusun ulang menjadi sebuah file, dan disimpan di local storage di server
+
+- [Pertemuan 4](meet-4)
+  1.  [Challenge 1](meet-4/)
