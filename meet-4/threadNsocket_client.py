@@ -9,7 +9,11 @@ client_socket.connect(server_address)
 try:
     while True:
         array = []
-        n = int(input("Masukkan jumlah elemen:"))
+        n = int(input("Masukkan jumlah elemen (angka 0 untuk stop):"))
+
+        if n == 0:
+            break
+
         for i in range(n):
             array.append(str(input()))
 
@@ -22,7 +26,3 @@ try:
 except KeyboardInterrupt:
     client_socket.close()
     sys.exit(0)
-
-
-
-
