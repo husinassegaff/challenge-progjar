@@ -1,7 +1,5 @@
 import os
 import socket
-import select
-import sys
 import threading
 
 BUFFER_SIZE = 4096
@@ -49,6 +47,7 @@ def broadcast(filename, connection):
         if clients != connection:
             try:
                 filepath = "C:/Users/husin/Documents/Coding/Kuliah/Sem6/Progjar/challenge-progjar/meet-5/challenge-2/client/"
+                print("ini filename: " + filename)
                 filename_send = filepath + filename
                 clients.send(f"{filepath}{SEPARATOR}{filename}".encode())
 
