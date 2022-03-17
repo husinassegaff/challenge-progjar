@@ -36,8 +36,27 @@
      3. Server menerima kiriman data, menghitung hasilnya, dan menyusun ulang menjadi sebuah file, dan disimpan di local storage di server
 
 - [Pertemuan 4](meet-4)
-  1.  [Challenge 1](meet-4/)
+
+  1.  [Challenge 1](meet-4/) <br/>
       Modifikasi code supaya,
       1.  Client dapat mengirimkan beberapa angka ke server
       2.  Server menerima setiap angka, lalu memeriksa apakah angka tersebut bilangan prima atau bukan
       3.  Server mengirimkan jawaban **Y** apabila prima dan **N** jika bukan prima ke client
+
+- [Pertemuan 5](meet-5)
+
+  1.  [Challenge-1](meet-5/challenge-1/) <br/>
+      Modifikasi program chat agar ketika seorang client mengirimkan sebuah teks berupa _mathematical statement_ seperti `3+5`, maka server dapat menghitung dan mengubah pesannya menjadi `3+5=8` dan diteruskan ke client
+  2.  [Challenge-2](meet-5/challenge-2/) <br/>
+      Modifikasi program chat dengan ketentuan,
+
+      - Client dapat mengirimkan file ke semua client lainnya dengan sintaks `send <path file>`
+      - Semua client lainnya menerima file tersebut dan disimpan di folder khusus. Di client juga akan muncul notifikasi bahwa seorang client mengirim file dan telah tersimpan
+      - Nama file harus dipertahankan, tidak boleh diubah
+
+  3.  [Challenge-3](meet-5/challenge-3/) <br/>
+      Modifikasi program chat dengan ketentuan,
+
+      - Asumsikan ketika terhubung, seorang client mempunyai ID Client (boleh diassign otomatis & client diinfokan atau input secara mandiri dari client)
+      - Seorang client dapat mengirimkan pesan private ke client tertentu berdasarkan ID
+      - Sintaks `private <ID tujuan> <pesan>`
